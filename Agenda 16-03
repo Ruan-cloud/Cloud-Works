@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.manager.agenda.MainActivity">
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:background="#ff7700"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="HORA" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:background="#ff7700"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ATIVIDADE"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:layout_width="101dp"
+        android:layout_height="470dp"
+        android:width="200dp"
+        android:background="#000438"
+        android:gravity="center | top"
+        android:lineSpacingExtra="2dp"
+        android:padding="10dp"
+        android:text="7:30
+                      8:00
+                      8:30
+                      9:00
+                      9:30
+                      10:00
+                      10:30
+                      11:00
+                      11:30
+                            "
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="470dp"
+        android:width="200dp"
+        android:background="#000438"
+        android:gravity="center | top"
+        android:lineSpacingExtra="28dp"
+        android:padding="10dp"
+        android:text="PAM
+PAM
+BD
+BD
+PW
+PW
+DS
+DS
+DD
+                            "
+        android:textColor="#ffffff"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="39dp" />
+
+</android.support.constraint.ConstraintLayout>
